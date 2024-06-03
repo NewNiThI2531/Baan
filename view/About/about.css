@@ -1,0 +1,133 @@
+
+/* Footer */
+.footerbg{
+    margin-block-start: 0;
+    background: #e6d7b8;
+    transition: 0.3s;
+}
+.footerbg:hover{
+    background: #e2cda6
+}
+/* ------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.navbg{
+    position:unset!important;
+    border-bottom: none;
+    background: #d0d4d6;
+  }
+.navbg:hover{
+    background: #b4bfc5;
+}
+
+.aboutbg{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+/* Column A */
+.bgboardA{
+    background: #d0d4d6;
+    padding-block-start: 60px;
+    padding-block-end: 60px;
+}
+.clearfixA{
+    /* margin-block-end: 100px!important; */
+}
+.boardcolumnA{
+    display: flex;
+    align-items: center;
+}
+.boardimageA{
+    /* display: grid;
+    justify-content: center; */
+}
+.name-aboutA{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #d1a03f;
+    padding-block-end: 20px;
+}
+.text-aboutA{
+    color: #d1a03f;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: end;
+    /* margin-right: 20px; */
+}
+.call-numberA{
+    color: #d1a03f;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact-tellA{
+    text-align: center;
+    padding-block-start: 30px;
+}
+.BGimageA{
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 550px;
+
+    border: 5px solid #82a1b1;
+    border-radius: 20px;
+}
+/* ----- */
+
+/* Column B */
+.bgboardB{
+    background: #e6d7b8;
+    padding-block-start: 60px;
+    padding-block-end: 60px;
+}
+.clearfixB{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-block-start: 100px!important;
+}
+.boardcolumnB{
+    display: flex;
+    align-items: center;
+}
+.name-aboutB{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #144660;
+    padding-block-end: 20px;
+}
+.text-aboutB{
+    color: #144660;
+    font-size: 18px;
+    font-weight: 500;
+}
+.call-numberB{
+    color: #144660;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact-tellB{
+    text-align: center;
+    padding-block-start: 30px;
+}
+.BGimageB{
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 550px;
+
+    border: 5px solid #e2c179;
+    border-radius: 20px;
+}
+/* ------- */
+
+/* @media screen and (min-width: 768px ) and (max-width: 1023px ) {
+    .image{
+        height: 370px;
+    }
+} */

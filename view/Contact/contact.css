@@ -1,0 +1,278 @@
+.bgcontact{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    background-position: center;
+    background-size: cover;
+
+    inline-size: auto;
+    block-size: 600px;
+
+}
+.bgtopcontact{
+    background: rgb(231 231 231 / 29%);
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.headcontact{
+    color: #353535;
+    padding: 10px;
+    text-align: center;
+    width: 550px!important;
+}
+.cardlogobgA{
+    border-inline-end: 1px solid #000000;
+    padding: 50px!important;
+    margin-block-start: 20px!important;
+    margin-block-end: 20px;
+}
+.cardlogo{
+    inline-size: 100%;
+    block-size: 100%;
+
+    box-shadow: 5px 5px 5px 5px rgb(122, 122, 122);
+}
+
+.cardlogobgB{
+    border-inline-start: 1px solid #000000;
+    padding: 50px!important;
+    margin-block-start: 20px!important;
+    margin-block-end: 20px;
+}
+
+/* TEXT DETAIL NAME */
+.comname{
+    font-size: 40px!important;
+    font-weight: 300!important;
+    text-align: center;
+    text-transform: uppercase;
+    color: #144660;
+}
+.covercall, .coverface, .coverline{
+    font-size: 20px;
+    font-weight: 400;
+    color: #454545;
+}
+.covercall, .coverface, .coverline{
+    word-spacing: 10px;
+}
+
+.callcon, .linecon{
+    color: #454545;
+    text-decoration: none;
+}
+.facecon{
+    color: #454545;
+}
+.callcon:hover, .facecon:hover, .linecon:hover{
+    color: #454545;
+}
+
+.qrconcover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    margin-top: 30px;
+}
+.qricon{
+    width: 110px;
+    height: auto;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) { 
+    .bgcontact{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        background-position: center;
+        background-size: cover;
+    
+        inline-size: auto;
+        block-size: 600px;
+    }
+    .cardlogobgA{
+        border-inline-end: 1px solid #000000;
+        padding: 50px!important;
+        margin-block-start: 20px!important;
+        margin-block-end: 20px;
+    }
+    .cardlogo{
+        inline-size: 100%;
+        block-size: 100%;
+    
+        box-shadow: 5px 5px 5px 5px rgb(122, 122, 122);
+    }
+    
+    .cardlogobgB{
+        border-inline-start: 1px solid #000000;
+        padding: 50px!important;
+        margin-block-start: 20px!important;
+        margin-block-end: 20px;
+    }
+    
+    /* TEXT DETAIL NAME */
+    .comname{
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .covercall, .coverface, .coverline{
+        font-size: 20px;
+        font-weight: 400;
+        color: #454545;
+    }
+    .covercall, .coverface, .coverline{
+        word-spacing: 10px;
+    }
+    
+    .callcon, .linecon{
+        color: #454545;
+        text-decoration: none;
+    }
+    .facecon{
+        color: #454545;
+    }
+    .callcon:hover, .facecon:hover, .linecon:hover{
+        color: #454545;
+    }
+    
+    .qrconcover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    
+        margin-top: 30px;
+    }
+    .qricon{
+        width: 110px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+    .bgcontact{
+        block-size: 440px;
+    }
+    .bgtopcontact {
+        font-size: 35px;
+    }
+    .headcontact {
+        width: 350px!important;
+    }
+    .cardlogobgA {
+        display: grid;
+        border-inline-end: none;
+        margin-block-end: 5px;
+        padding: 30px!important;
+        margin-block-start: 20px!important;
+        margin-block-end: 20px;
+        justify-content: center;
+    }
+    .cardlogo {
+        inline-size: auto;
+        block-size: 300px;
+        box-shadow: 5px 5px 5px 5px rgb(122, 122, 122);
+    }
+    .cardlogobgB {
+        border-inline-start: none;
+        margin-block-start: 5px;
+        padding: 30px!important;
+        display: grid;
+        justify-items: center;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) { 
+    .bgcontact{
+        margin-block-start: 60px;
+        block-size: 240px;
+    }
+    .bgtopcontact {
+        background: rgb(231 231 231 / 29%);
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    .headcontact {
+        color: #353535;
+        padding: 10px;
+        text-align: center;
+        width: 320px!important;
+    }
+    .cardlogobgA {
+        display: grid;
+        justify-content: center;
+        border: none;
+        padding: 10px!important;
+        margin-block-end: 5px;
+    }
+    .cardlogo {
+        inline-size: auto;
+        block-size: 180px;
+        box-shadow: 5px 5px 5px 5px rgb(122, 122, 122);
+    }
+    .cardlogobgB {
+        border-inline-start: none;
+        margin-block-start: 5px!important;
+        padding: 30px!important;
+        display: grid;
+        justify-items: center;
+    }
+    .comname {
+        font-size: 30px!important;;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) { 
+    .bgcontact{
+        margin-block-start: 60px;
+        block-size: 240px;
+    }
+    .bgtopcontact {
+        padding: 0!important;
+        background: rgb(231 231 231 / 29%);
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    .headcontact {
+        color: #353535;
+        padding: 10px;
+        text-align: center;
+        width: 320px !important;
+    }
+    .cardlogobgA {
+        display: grid;
+        justify-content: center;
+        border: none;
+        padding: 10px!important;
+        margin-block-end: 5px;
+    }
+    .cardlogo {
+        inline-size: auto;
+        block-size: 140px;
+        box-shadow: 5px 5px 5px 5px rgb(122, 122, 122);
+    }
+    .cardlogobgB {
+        border-inline-start: none;
+        margin-block-start: 5px!important;
+        padding: 30px!important;
+        display: grid;
+        justify-items: center;
+    }
+    .covercall, .coverface, .coverline {
+        font-size: 18px;
+        font-weight: 400;
+        color: #454545;
+    }
+    .comname {
+        font-size: 30px!important;;
+    }
+}

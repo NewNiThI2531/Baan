@@ -1,0 +1,298 @@
+
+
+.navbg{
+  background: rgba(230, 230, 230, 0.5);
+  border-block-end: 2px solid #1445607c;
+  height: 82px;
+  padding: 0!important;
+  transition: 0.3s;
+
+}
+
+
+.navbg:hover{
+  background: rgba(202, 202, 202, 0.5);
+  transition: 0.3s;
+}
+
+/* Collumn-Menu-Start */
+.gidcolst{
+  text-align: center;
+  /* background: #45454565; */
+
+  padding-block-start: 5px;
+  padding-block-end: 5px;
+}
+.brandlogo{
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #2a2a2a!important;
+}
+.logomenu{
+  margin-inline-end: 20px;
+
+  border-radius: 50%;
+  inline-size: 60px;
+  block-size: 100%;
+}
+
+
+/* Collumn-Menu-Center */
+.gidcolcen{
+  text-align: center;
+}
+
+/* Collumn-Menu-End */
+.gidcolend{
+  display: grid;
+  justify-content: end;
+  padding-inline-end: 20px;
+}
+/* ---------------- */
+
+.showmenu{
+  inline-size: 35px;
+  block-size: 35px;
+
+  padding: 0;
+  margin-inline-end: 25px;
+  color: rgb(148, 148, 148);
+  font-size: 20px;
+  background: none;
+  /* border: 2px solid #454545; */
+  border-radius: 0px;
+  transition: 0.3s all;
+}
+.showmenu:hover{
+  border: 2px solid #f2f2f2;
+  color: #144660;
+  background: #f2f2f2;
+  transition: 0.3s all;
+}
+
+.menubar{
+  inline-size: 30px;
+  box-sizing: none;
+}
+
+/* Slide Menu */
+.slidecanvas{
+  background: #f3f3f3!important;
+  inline-size: 300px!important;
+}
+.cancelX{
+  font-size: 35px;
+  color: #f77f52;
+  text-decoration: none;
+  font-weight: 400!important;
+}
+.cancelX:hover{
+  color: #f77f52;
+}
+
+.offcanvas-title{
+  color: #d8961c;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.offcanvas-link{
+  text-align: center;
+}
+.nav-link{
+  color: #000;
+}
+.nav-link:hover{
+  color: #00799e!important;
+}
+.nav-item{
+  font-size: 20px!important;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+  margin-block-start: 5px;
+  margin-block-end:5px;
+  transition: 0.5s;
+}
+.nav-item:hover{
+  border-radius: 50px;
+  transition: 0.5s;
+  background: #cfcfcf;
+}
+
+/* Image Logo Slide Menu*/
+
+.baanlogo{
+  margin-block-start: 10px;
+  border-radius: 50%;
+  border: none!important;
+  inline-size: 150px;
+  block-size: 150px;
+}
+
+/* ---------------------- */
+/* Social Media Bottom Slide Menu */
+
+.Icontact{
+  text-align: center;
+  margin-block-start: 20px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+}
+
+.callicon{
+  display: inline-flex;
+}
+.phonemenu{
+  font-size: 18px!important;
+  font-weight: 100!important;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #454545;
+  padding-inline-start: 20px;
+}
+.phonemenu:hover{
+  color: #454545;
+}
+
+.social-icons-btn {
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  inline-size: 45px;  /**Width */
+  block-size: 45px; /**Height */
+
+  font-size: 1.3rem;
+  text-decoration: none;
+  background: #e9e9e9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.facebook{
+  color: #0055ff;
+  transition: all 0.5s;
+}
+.facebook:hover {
+  color: #ffffff;
+  background: #0055ff;
+}
+.line{
+  color: #00df13;
+  transition: all 0.5s;
+}
+.line:hover{
+  color: #ffffff;
+  background: #00c010;
+}
+/* .line:hover {
+  background-image: 
+    linear-gradient(
+    #8a3ab9,
+    #e95950, 
+    #bc2a8d, 
+    #fccc63
+    );
+} */
+
+/* ----------------- */
+
+/* Icon contact Bottom Page */
+.icon{
+  font-size: 25px;
+  font-weight: 200;
+
+  text-align: center;
+  color: #ffffff;
+  background: #0071b3a2;
+  border-radius: 100%;
+
+  inline-size: 60px;
+  block-size: 60px;
+
+  margin-inline-end: 20px;
+  margin-block-end: 20px;
+
+  /* padding-inline-start: 20px!important;
+  padding-inline-end: 20px!important;
+  padding-block-start: 20px!important;
+  padding-block-end: 20px!important; */
+
+  transition: 0.3s;
+}
+.icon:hover{
+  transform: rotate(360deg);
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (min-width: 768px) and (max-width: 1204px) { 
+  .gidcolcen{
+    font-size: 15px!important;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) { 
+  .brandlogo{
+    margin-inline-start: 60px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 424px) { 
+  .navbg{
+    block-size: 62px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) { 
+.navbg{
+  block-size: 60px;
+  background: #bbbbbba2;
+}
+.logomenu{
+  inline-size: 50px;
+  margin-inline-end: 30px;
+  margin-inline-start: -30px;
+}
+.gidcolcen{
+  font-size: 0px;
+}
+.brandlogo{
+  color: #00000000;
+  font-size: 20px;
+}
+.showmenu{
+  margin-inline-end: -10px;
+}
+.nav-item{
+  font-size: 18px!important;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+  margin-block-start: 4px;
+  margin-block-end:4px;
+}
+.Icontact{
+  margin-block-start: 10px;
+  }
+.icon{
+  font-size: 20px;
+  inline-size: 50px;
+  block-size: 50px;
+}
+.baanlogo{
+  inline-size: 100px;
+    block-size: 100px;
+}
+.phonemenu{
+  font-size: 14px!important
+}
+}

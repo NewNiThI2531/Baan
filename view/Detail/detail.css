@@ -1,0 +1,151 @@
+/* .navbg{
+    background: rgba(124, 130, 136, 0.836);
+    height: 82px;
+    padding: 0!important;
+    transition: 0.3s;
+  } */
+
+
+  
+/* Head Text */
+.gallerybg{
+    margin-top: 80px!important;
+  }
+  
+
+.bgcol{
+    padding: 10px;
+    background: hsla(0, 0%, 79%, 0.562);
+    box-shadow: 0px 0px 20px 2px hsla(0, 0%, 73%, 0.562);
+  }
+.Headtext{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #d8961c;
+}
+.Subtext{
+    text-underline-offset: 8px;
+    font-weight: 400;
+    color: #144660;
+}
+/* -------- */
+/* Top Content */
+.topimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-position: center;
+    background-size: cover;
+
+    width: auto;
+    height: 550px;
+}
+/* ---------- */
+/* --- Detail Content --- */
+.namehome {
+  padding: 50px;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  color: #d8961c;
+}
+.topdetailimg{
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+}
+.detailimg{
+  margin: 0;
+  padding-inline-start: 5px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 16px;
+}
+.imgall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgviewgall{
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 550px;
+}
+
+.imgall{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.covcol{
+    padding: 5px;
+}
+.imgbg{
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%;
+    height: 350px;
+}
+/*  Warp Zoom */
+
+.img-wrapper {  
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden; 
+  }
+  .inner-img {
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+
+    width: 100%;
+    height: 350px;
+  }
+  .inner-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* --------- */
+
+  @media screen and (min-width: 320px) and (max-width: 576px) {
+    .topimg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-position: center;
+      background-size: cover;
+      width: auto;
+      height: 172px;
+  }
+    .gallerybg{
+      margin-top: 60px!important;
+    }
+    .imgviewgall {
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 260px;
+  }
+    .imgbg {
+      width: 100%;
+      height: 200px;
+  }
+  .namehome {
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 0;
+  }
+  .detailimg{
+    margin: 0;
+    padding-inline-start: 40px;
+    color: #222222;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
